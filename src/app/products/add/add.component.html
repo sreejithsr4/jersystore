@@ -1,0 +1,41 @@
+<div class="container">
+   
+    <div class="row">
+     <form (ngSubmit)="addProduct()" [formGroup]="addForm">
+            <h1>Add Product</h1>
+            
+            <input formControlName="pid" type="text" id="p1" placeholder="Product Id">
+            <p class="text-danger mb-0"
+                    *ngIf="this.addForm.get('pid')?.errors && this.addForm.get('pid')?.touched">Accept Only
+                    Numbers</p>
+            <input id="p2" formControlName="pname" type="text" placeholder="Product Name">
+            <p class="text-danger mb-0"
+                    *ngIf="this.addForm.get('pname')?.errors && this.addForm.get('pname')?.touched">Accept Only
+                    Charecters</p>
+            <input id="p3" formControlName="price" type="text" placeholder="Price">
+            <p class="text-danger mb-0"
+                    *ngIf="this.addForm.get('price')?.errors && this.addForm.get('price')?.touched">Accept Only
+                    Numbers</p>
+            <input id="p4" formControlName="psize" type="text" placeholder="Size">
+            <p class="text-danger mb-0"
+                    *ngIf="this.addForm.get('psize')?.errors && this.addForm.get('psize')?.touched">Accept Only
+                    Charecters</p>
+            <input id="p5" formControlName="pdes" type="text" placeholder="Details">
+            <p class="text-danger mb-0"
+                    *ngIf="this.addForm.get('pdes')?.errors && this.addForm.get('pdes')?.touched">Invalid</p>
+            <input id="p5" formControlName="pcid" type="text" placeholder="category Id">
+            <p class="text-danger mb-0"
+                    *ngIf="this.addForm.get('pcid')?.errors && this.addForm.get('pcid')?.touched">Accept Only
+                    Numbers</p>
+                    <input id="p6" formControlName="prating" type="text" placeholder="Rating">
+                    <p class="text-danger mb-0"
+                            *ngIf="this.addForm.get('prating')?.errors && this.addForm.get('prating')?.touched">Invalid Url</p>
+            <input id="p7" formControlName="pimage" type="text" placeholder="Image">
+            <p class="text-danger mb-0"
+                    *ngIf="this.addForm.get('pimage')?.errors && this.addForm.get('pimage')?.touched">Invalid Url</p>
+            
+            <button type="submit">SUBMIT</button>
+     </form>
+    </div>
+   
+</div>

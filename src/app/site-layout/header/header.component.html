@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href=""><i class="fa-solid fa-shirt fa-2xl" style="color: #f97306;"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <h4>FOOTBALL <br> MANIAC</h4>
+            <a class="a" href="/products/add-product">Add Products</a>
+            <div class="col-md-8 ms-2">
+                
+                <div class="d-flex form-inputs">
+                <input [(ngModel)]="searchData" (keyup)="accessData($event)" class="form-control" type="text" placeholder="Search any product...">
+                <i class="fa-solid fa-magnifying-glass fa-lg mt-2" style="color: #080808;"></i>
+                </div>
+                   </div>
+            <form class="d-flex ms-4">
+              <button class="btn btn-outline-dark" type="submit">
+                <i class="fa-solid fa-cart-shopping" style="color: #f78646;"></i>
+                        <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    </button>
+             </form>
+        </div>
+    </div>
+</nav>

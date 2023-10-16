@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+h4{
+    font-family: 'Skranji', cursive;
+    color: rgb(233, 116, 38);
+}
+
+.form-inputs{
+    position:relative;
+}
+.form-inputs .form-control{
+    height:45px; 
+}
+
+.form-inputs .form-control:focus{
+    box-shadow:none;
+    border:1px solid #000;
+}
+
+.form-inputs i{
+    position:absolute;
+    right:10px;
+    top:15px;
+}
+.a{
+    background-color: rgb(255, 145, 0);
+    text-decoration: none;
+    color: #000;
+    padding: 4px;
+    font-size: small;
+    border-radius: 25px;
+}

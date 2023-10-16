@@ -1,0 +1,29 @@
+<div class="container">
+   
+    <div class="row">
+     <form (ngSubmit)="update()" >
+            <h1>edit Product</h1>
+            
+           
+            
+            <input [(ngModel)]="pdata.productName" id="p2" type="text" name="p1" placeholder="Product Name">
+            
+            <input [(ngModel)]="pdata.price" id="p3"  type="text" name="p2" placeholder="Price">
+            
+            <input [(ngModel)]="pdata.size" id="p4"  type="text" name="p3" placeholder="Size">
+            
+            <input [(ngModel)]="pdata.description" id="p5"  type="text" name="p4" placeholder="Details">
+            
+            <input [(ngModel)]="pdata.categoryId" id="p8" type="text" name="p5" placeholder="category Id">
+           
+          <input [(ngModel)]="pdata.rating" id="p6"  type="text" name="p6" placeholder="Rating">
+                    
+            <input [(ngModel)]="pdata.image" id="p7"  type="text" name="p7" placeholder="Image">
+            
+            
+            <button type="submit">SUBMIT</button>
+     </form>
+    </div>
+   
+</div>
+

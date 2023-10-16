@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Skranji&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Skranji&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Kanit&family=Skranji&display=swap');
+.height{
+    height: 400px;
+}
+.h2{
+    font-family: 'Croissant One', cursive;
+    
+}
+.ad{
+    width: 15%;
+}
+.ad1{
+    width: 20%;
+}
+.ad2{
+    width: 30%;
+}
+.he1{
+    font-family: 'Kanit', sans-serif;
+}
+.he2{
+    font-family: 'Skranji', cursive;
+}
+p{
+    font-family: 'IBM Plex Mono', monospace;
+}
+.p{
+  
+   height: 180px;
+    background-color: black;
+    border: 2px white solid;
+    padding: 0;
+    position: relative;
+}
+.img{
+    opacity: 1;
+    height: 180px;
+  
+  width: 100%;
+  
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.overlay {
+    transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .p:hover .img{
+    opacity: 0.3;
+  }
+  
+  .p:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

@@ -1,0 +1,205 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Arsenal Jersy",
+      "categoryId": 1,
+      "description": "2023-2024 Season Kit",
+      "price": "2000",
+      "image": "https://i.postimg.cc/X7jHDhrm/61-Ksand-V67-L-UX679.jpg",
+      "rating": "4.8",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 2,
+      "productName": "Barcelona Jersy",
+      "categoryId": 1,
+      "description": "2023-2024 Season Kit",
+      "price": 1000,
+      "image": "https://i.postimg.cc/J0VMW6PV/Barcelona-home-23-24-2-1.jpg",
+      "rating": 4.5,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 3,
+      "productName": "Real Madrid Jersy",
+      "categoryId": 1,
+      "description": "2023-2024 Season Kit",
+      "price": 1000,
+      "image": "https://i.postimg.cc/TP6Vpf1p/41cs-Gy-FBCPL-UX679.jpg",
+      "rating": 4.5,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 4,
+      "productName": "Manchester United Jersy",
+      "categoryId": 1,
+      "description": "2023-2024 Season Kit",
+      "price": 1000,
+      "image": "https://i.postimg.cc/SNZNvpHH/Manchester-United-Home-2023-24-Player-Edition-11-334915d4-7ff6-4844-ba50-e28f0cc6869a.webp",
+      "rating": 4.5,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 5,
+      "productName": "Manchester United Retero Jersy",
+      "categoryId": 3,
+      "description": "2010-2011 Season Kit",
+      "price": 1500,
+      "image": "https://i.postimg.cc/C1Z5VMfR/Manchester-United-Home-2008-Retro-jersey.webp",
+      "rating": 4.5,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 6,
+      "productName": "Brazil Retero Jersy",
+      "categoryId": 3,
+      "description": "2006 World Cup Kit",
+      "price": 1500,
+      "image": "https://i.postimg.cc/2jMvyMkp/Brazil-Home-2002-Retro-Jersey-scaled-scaled.jpg",
+      "rating": 4.5,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 7,
+      "productName": "Real Madrid Retero Jersy",
+      "categoryId": 3,
+      "description": "2010-2011 Season Kit",
+      "price": 1500,
+      "image": "https://i.postimg.cc/C1vXTDqg/Real-Madrid-Home-2011-2012-1024x1024-2x.webp",
+      "rating": 4.5,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 8,
+      "productName": "Brazil Jersy",
+      "categoryId": 2,
+      "description": "New Kit",
+      "price": 1000,
+      "image": "https://i.postimg.cc/zDxb6f2F/512-Nqv53-KDL-AC-UY1100.jpg",
+      "rating": 4.5,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 9,
+      "productName": "Portugal Jersy",
+      "categoryId": 2,
+      "description": "2023 Kit",
+      "price": 1200,
+      "image": "https://i.postimg.cc/pX20SyQW/a59fc755cd46d1f7c17cddbb6ba21dd982c2b075d4b2203e6b886a7cb1d46883.webp",
+      "rating": 4.5,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 10,
+      "productName": "Arsenal Away Jersy",
+      "categoryId": 1,
+      "description": "2023-2024 Season Kit",
+      "price": 1000,
+      "image": "https://i.postimg.cc/d3TqP4cC/A1-433x433.webp",
+      "rating": 4.5,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": "12",
+      "productName": "Newcastle United",
+      "size": "S,M,L,XL",
+      "rating": "4.5",
+      "description": "2023-2024 Season Kit",
+      "price": "1000",
+      "image": "https://i.postimg.cc/fRkPWFwJ/1820007a84bab51ece0d147802eced63-grande.webp",
+      "categoryId": "1"
+    },
+    {
+      "id": "14",
+      "productName": "france jersy",
+      "size": "S,M,L,XL",
+      "rating": "4.5",
+      "description": "Retero jersy",
+      "price": "1200",
+      "image": "https://i.postimg.cc/ZRhpyhf4/wallpaperflare-com-wallpaper-3.jpg",
+      "categoryId": "3"
+    },
+    {
+      "id": "15",
+      "productName": "Chelsea jersy",
+      "size": "S,M,L,XL",
+      "rating": "4.5",
+      "description": "2023-2024 Season Kit",
+      "price": "1300",
+      "image": "https://i.postimg.cc/MTtKKtF6/Chelsea-Home-kit-23-24-custom-1.jpg",
+      "categoryid": "1",
+      "categoryId": "1"
+    },
+    {
+      "id": "16",
+      "productName": "Liverpool Jersy",
+      "size": "S,M,L,XL",
+      "rating": "4.5",
+      "description": "2023-2024 Season Kit",
+      "price": "12000",
+      "image": "https://i.postimg.cc/MTwhQkF7/gemse-512.webp",
+      "categoryid": "1"
+    },
+    {
+      "id": "18",
+      "productName": "Newcastle United",
+      "size": "S,M,L,XL",
+      "rating": "4.5",
+      "description": "2023-2024 Season Kit",
+      "price": "10000",
+      "image": "https://i.postimg.cc/fRkPWFwJ/1820007a84bab51ece0d147802eced63-grande.webp",
+      "categoryId": "1"
+    }
+  ]
+}

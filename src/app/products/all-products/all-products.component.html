@@ -1,0 +1,114 @@
+<header class=" py-5">
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active height">
+        <img src="https://i.postimg.cc/Hsh6JpDt/wallpaperflare-com-wallpaper.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+
+          <h1 class="h2">2023-2024 Season Kit Available</h1>
+          <p>Get flat Rs:300/- Off on 4 Jersy</p>
+        </div>
+      </div>
+      <div class="carousel-item height">
+        <img src="https://i.postimg.cc/tJVNW6Ht/wallpaperflare-com-wallpaper-1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-flex justify-content-between">
+          <h1 class="h2">Buy 2 <br>Get 1 <br> Free</h1>
+          <h1 class="he2">National Teams <br> Kit Available</h1>
+          <img class="ad1" src="https://i.postimg.cc/d1JPVGgX/pngwing-com-1.png" alt="">
+        </div>
+      </div>
+      <div class="carousel-item height">
+        <img src="https://i.postimg.cc/0NsHYDPC/sandro-schuh-Hgw-Y-YQ1m0w-unsplash.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-flex flex-column ">
+          <div class="d-flex flex-row align-items-center">
+            <h1 class="he1">RETRO SECTION <br> AVAILABLE</h1>
+            <img class="ad2" src="https://i.postimg.cc/xCSYbc4r/pngwing-com-2.png" alt="">
+            <h1>More Than 10K <br> Happy Customers</h1>
+          </div>
+          <p>Use code:ABC45 To get extra 100Rs Off</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</header>
+<!-- Section-->
+<!-- selection -->
+<div class="container selection">
+  <div class="row">
+    <div class="p col-md-3"><img class="img d-block w-100"
+        src="https://i.postimg.cc/Y9F60zQG/Wholesale-Men-s-22-23-Football-Jersey-Custom-You-Club-Soccer-Wear-for-Men-Kids.webp"
+        alt="">
+      <div (click)="categoryProduct('')" class="overlay">
+        <div class="text">ALL SECTION</div>
+      </div>
+    </div>
+
+    <div (click)="categoryProduct(2)" class="p col-md-3"><img class="img d-block w-100"
+        src="https://i.postimg.cc/fRBrKBGG/wallpaperflare-com-wallpaper-7.jpg" alt="">
+        <div class="overlay">
+          <div class="text">INTERNATIONAL SECTION</div>
+        </div></div>
+    <div (click)="categoryProduct(3)" class="p col-md-3"><img class="img d-block w-100"
+        src="https://i.postimg.cc/ZRhpyhf4/wallpaperflare-com-wallpaper-3.jpg" alt="">
+        <div class="overlay">
+          <div class="text">RETERO SECTION</div>
+        </div></div>
+    <div (click)="categoryProduct(1)" class="p col-md-3"><img class="img" src="https://i.postimg.cc/L6sb6hxt/skysports-erling-haaland-man-city-6010429.jpg"
+        alt=""><div class="overlay">
+          <div class="text">CLUB SECTION</div>
+        </div></div>
+  </div>
+
+</div>
+<!-- selection -->
+<section class="py-5">
+  <div class="container px-4 px-lg-5 mt-5">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+      <div *ngFor="let i of categoryProducts | search:searchString:'productName' " class="col mb-5">
+        <div class="card h-100">
+          <!-- Product image-->
+          <img style="height: 200px;" class="card-img-top" src="{{i.image}}" alt="..." />
+          <!-- Product details-->
+          <div class="card-body p-2">
+            <div class="text-center">
+              <!-- Product name-->
+              <h5 class="fw-bolder">{{i.productName}}</h5>
+              <!-- Product price-->
+              <p class="mb-1">{{i.description}}</p>
+              <p class="mb-1">Price : {{i.price}}Rs</p>
+              <p class="mb-1">{{i.size}}</p>
+              <p class="mb-1">Rating : {{i.rating}}</p>
+            </div>
+          </div>
+          <!-- Product actions-->
+          <div class="card-footer p-2 pt-0 border-top-0 bg-transparent">
+            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                href="products/view-product/{{i.id}}">View</a></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Product actions-->
+    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+    </div>
+  </div>
+
+</section>
